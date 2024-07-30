@@ -1,0 +1,267 @@
+body {
+    background-color: black;
+    background-image: url(../images/phillies4.jpg);
+    background-attachment: fixed;
+    background-size: 100% auto;
+}
+
+.b {
+    position: absolute;
+    border-color: crimson;
+    border-width: 10px;
+    border-style: solid;
+    background-color: white;
+    width: 900px;
+    height: 750px;
+    padding: 30px;
+    margin: 520px 300px 100px 220px;
+    border-radius: 40px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.b img {
+    position: absolute;
+    height: 190px;
+    width: 190px;
+    top: 5px;
+    right: 100px;
+    border-radius: 50%;
+    display: block;
+    transition-duration: .5s;
+}
+
+.b img:hover {
+    transform: scale(1.1);
+}
+
+h1 {
+    color: crimson;
+}
+
+.title {
+    background-color: darkblue;
+    width: 100%;
+    height: 40px;
+    left: 0;
+    top: 0;
+    position: fixed;
+    padding: 0.5px;
+    z-index: 1;
+}
+
+.title p {
+    position: absolute;
+    top: -35px;
+    left: 39%;
+    font-size: 35px;
+    color: crimson;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.title img {
+    position: absolute;
+    top: -8px;
+    left: 5px;
+    width: 70px;
+    height: 55px;
+    border-radius: 10px;
+}
+
+.目次 {
+    display: flex;
+    position: fixed;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.目次 div {
+    background-color: crimson;
+    border-style: solid;
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    height: 30px;
+    color: crimson;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.目次 div:hover {
+    color: darkblue;
+    background-color: crimson;
+}
+
+.contact-us {
+    width: 500px;
+    position: absolute;
+    top: 30%;
+    left: 450px;
+    background-color: white;
+    background-color: rgba(0, 0, 0, 0.60);
+    padding: 30px;
+}
+
+.input {
+    background-color: white;
+    width: 100%;
+    border-radius: 5px;
+    border-color: crimson;
+    border-width: 5px;
+    margin: 0px 0px 10px -6px;
+}
+
+.btn{
+    text-align: center;
+    cursor: pointer;
+    padding: 5px 5px;
+    
+    background-color: crimson;
+    color: white;
+    margin: 0px 210px 0px 210px;
+    border-radius: 10px;
+}
+
+.Turner {
+    position: absolute;
+    border-color: crimson;
+    border-width: 3px;
+    border-style: solid;
+    background-color: white;
+    width: 400px;
+    height: 100px;
+    top: 400px;
+    left: 280px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Turner img {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    right: 20px;
+    top: 10px;
+    border-radius: 50%;
+}
+
+.Harper {
+    position: absolute;
+    border-color: crimson;
+    border-width: 3px;
+    border-style: solid;
+    background-color: white;
+    width: 400px;
+    height: 100px;
+    top: 400px;
+    right: 280px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Harper img {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    right: 20px;
+    top: 10px;
+    border-radius: 50%;
+}
+
+.Schwarber {
+    position: absolute;
+    border-color: crimson;
+    border-width: 3px;
+    border-style: solid;
+    background-color: white;
+    width: 400px;
+    height: 100px;
+    top: 560px;
+    left: 280px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Schwarber img {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    right: 20px;
+    top: 10px;
+    border-radius: 50%;
+}
+
+.Castellanos {
+    position: absolute;
+    border-color: crimson;
+    border-width: 3px;
+    border-style: solid;
+    background-color: white;
+    width: 400px;
+    height: 100px;
+    top: 560px;
+    right: 280px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Castellanos img {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    right: 20px;
+    top: 10px;
+    border-radius: 50%;
+}
+
+.Nola {
+    position: absolute;
+    border-color: crimson;
+    border-width: 3px;
+    border-style: solid;
+    background-color: white;
+    width: 400px;
+    height: 100px;
+    top: 720px;
+    left: 280px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Nola img {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    right: 20px;
+    top: 10px;
+    border-radius: 50%;
+}
+
+.Wheeler {
+    position: absolute;
+    border-color: crimson;
+    border-width: 3px;
+    border-style: solid;
+    background-color: white;
+    width: 400px;
+    height: 100px;
+    top: 720px;
+    right: 280px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Wheeler img {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    right: 20px;
+    top: 10px;
+    border-radius: 50%;
+}
